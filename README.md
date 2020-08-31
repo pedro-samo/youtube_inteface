@@ -24,7 +24,6 @@ __________
 To build this project, the following technologies were used:
 
 * JavaScript
-* Node.JS
 * React.JS
 * Library React.JS (Material-UI)
 
