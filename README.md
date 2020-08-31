@@ -36,7 +36,7 @@ __________
 ![Default Theme](https://github.com/pedro-samo/youtube_inteface/blob/master/git_readme/custom_mode.png)
 
 
-## Dark Theme Theme:
+## Dark Theme:
 
 ![Dark Theme](https://github.com/pedro-samo/youtube_inteface/blob/master/git_readme/dark_mode.png)
 
