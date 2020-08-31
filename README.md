@@ -1,4 +1,52 @@
+<div align="center">
+
+![YouTube Heahder](https://github.com/pedro-samo/youtube_inteface/blob/master/git_readme/header.png)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/pedro-samo/youtube_inteface) ![GitHub last commit](https://img.shields.io/github/last-commit/pedro-samo/youtube_inteface)  ![GitHub language count](https://img.shields.io/github/languages/count/pedro-samo/youtube_inteface) ![GitHub top language](https://img.shields.io/github/languages/top/pedro-samo/youtube_inteface)
+
+</div>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## About 
+
+**This project was developed to study React.JS and the Material-UI library** 
+
+Nothing better to study a new React.JS library than to recreate the interface of the largest video platform in the world, Youtube.
+In addition to the creation of the traditional main page, as a supplement a switch button was introduced in the website header to change the theme to night mode.
+
+This entire project was developed guided by the tutorial from @lucasnhimi on Youtube, to whom I thank the contribution.
+__________
+
+## Technologies
+
+To build this project, the following technologies were used:
+
+* JavaScript
+* Node.JS
+* React.JS
+* Library React.JS (Material-UI)
+
+_IDE: Visual Studio Code_ :blue_heart:
+__________
+
+## Default Theme:
+
+![Default Theme](https://github.com/pedro-samo/youtube_inteface/blob/master/git_readme/custom_mode.png)
+
+
+## Dark Theme Theme:
+
+![Dark Theme](https://github.com/pedro-samo/youtube_inteface/blob/master/git_readme/dark_mode.png)
+
+
+### Discovery yourself at: 
+
+https://youtube-material-ui.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8707f9b4-a917-4a94-9dea-3500e65c2294/deploy-status)](https://youtube-material-ui.netlify.app/)
+
 
 ## Available Scripts
 
@@ -12,57 +60,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
