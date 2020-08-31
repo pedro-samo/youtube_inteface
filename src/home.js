@@ -138,7 +138,7 @@ const videos = [
     },
     {
         id: 6,
-        title: 'GORDO STORES | Sapatos, roupas usadas quem teeeeem!',
+        title: 'PÉ DE CAFÉ | Café e outros dengos mais',
         channel: 'Pedro Morais',
         views: '233 mil visualizações',
         date: 'há 1 semana',
@@ -188,12 +188,12 @@ const videos = [
     {
         id: 11,
         title:
-            'GIT E GITHUB | Criando uma Rede Social com React.js e .NET Core #04',
-        channel: 'Pedro Morais',
-        views: '1,9 mi de visualizações',
-        date: 'há 1 semana',
-        avatar: '/images/avatar.jpeg',
-        thumb: '/images/thumb8.png',
+        'WILL DO SERVICES | Saving your hairline',
+    channel: 'Pedro Morais',
+    views: '1,9 mi de visualizações',
+    date: 'há 1 semana',
+    avatar: '/images/avatar.jpeg',
+    thumb: '/images/thumb8.png',
     },
     {
         id: 12,
