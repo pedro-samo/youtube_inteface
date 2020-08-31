@@ -22,9 +22,9 @@ function App() {
         main: '#3EA6FF',
       },
       background: {
-        default: darkMode ? '#232323' : '#e2dfd8',
+        default: darkMode ? '#232323' : '#EDEBEA',
         dark: darkMode ? '#181818' : '#f4f6f8',
-        paper: darkMode ? '#232323' : '#e2dfd8',
+        paper: darkMode ? '#232323' : '#EDEBEA',
       }
     },
   });

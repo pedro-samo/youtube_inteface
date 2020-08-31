@@ -29,6 +29,13 @@ import Subscriptions from '@material-ui/icons/Subscriptions'
 import Whatshot from '@material-ui/icons/Whatshot'
 import VideoLibrary from '@material-ui/icons/VideoLibrary'
 import AddCircle from '@material-ui/icons/AddCircle'
+import MusicVideo from '@material-ui/icons/MusicVideo'
+import SportsEsports from '@material-ui/icons/SportsEsports'
+import SportsBasketballIcon from '@material-ui/icons/SportsBasketball';
+import LocalMovies from '@material-ui/icons/LocalMovies';
+import Tv from '@material-ui/icons/Tv';
+import LiveTv from '@material-ui/icons/LiveTv';
+import Videocam from '@material-ui/icons/Videocam';
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 
 
@@ -82,18 +89,18 @@ const videos = [
     {
         id: 1,
         title:
-            'FEED DO USUÁRIO | Criando uma Rede Social com React.js e .NET Core #29',
-        channel: 'Lucas Nhimi',
-        views: '11 mi de visualizações',
-        date: 'há 1 semana',
+            'PURPLE STORE | Online clothing store from Recife',
+        channel: 'Pedro Morais',
+        views: '09 mi de visualizações',
+        date: 'há 2 semana',
         avatar: '/images/avatar.jpeg',
         thumb: '/images/thumb1.png',
     },
     {
         id: 2,
         title:
-            'COMO MELHORAR SEU CODIGO JAVASCRIPT (ESLINT + PRETTIER + EDITORCONFIG) | Dicas e Truques #02',
-        channel: 'Lucas Nhimi',
+            'ACONCHEGO DO MATUTO | Cerveja, petiscos e amigos no coração da Ilha do Leite!',
+        channel: 'Pedro Morais',
         views: '957 mil visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
@@ -102,8 +109,8 @@ const videos = [
     {
         id: 3,
         title:
-            'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
-        channel: 'Lucas Nhimi',
+            'AUTOFORTE - OFICINA | Sua oficina no bairro de Casa Forte. A gente cuida do seu veículo!',
+        channel: 'Pedro Morais',
         views: '106 mil visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
@@ -112,8 +119,8 @@ const videos = [
     {
         id: 4,
         title:
-            'CONTEXT API NO EDITOR DE POST | Criando uma Rede Social com React.js e .NET Core #27',
-        channel: 'Lucas Nhimi',
+            'GLAYCIIELE ALBUQUEQUE | Sua Fisioterapeuta',
+        channel: 'Pedro Morais',
         views: '5,6 mi de visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
@@ -122,8 +129,8 @@ const videos = [
     {
         id: 5,
         title:
-            'EDITOR DE POST COM MARKDOWN 2 | Criando uma Rede Social com React.js e .NET Core #26',
-        channel: 'Lucas Nhimi',
+            'AURORA ENGENHARIA | Você sonha, a gente constroi',
+        channel: 'Pedro Morais',
         views: '2,2 mi de visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
@@ -131,8 +138,8 @@ const videos = [
     },
     {
         id: 6,
-        title: 'COMO MIGRAR PARA REACT HOOKS | Dicas e Truques #01',
-        channel: 'Lucas Nhimi',
+        title: 'GORDO STORES | Sapatos, roupas usadas quem teeeeem!',
+        channel: 'Pedro Morais',
         views: '233 mil visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
@@ -141,8 +148,8 @@ const videos = [
     {
         id: 7,
         title:
-            'PRÉ-REQUISITOS | Criando uma Rede Social com React.js e .NET Core #01',
-        channel: 'Lucas Nhimi',
+            'DULCEFILIA | Wafflaes e Cookies para adoçar a vida.',
+        channel: 'Pedro Morais',
         views: '118 mil visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
@@ -151,12 +158,52 @@ const videos = [
     {
         id: 8,
         title:
-            'GIT E GITHUB | Criando uma Rede Social com React.js e .NET Core #04',
-        channel: 'Lucas Nhimi',
+            'WILL DO SERVICES | Saving your hairline',
+        channel: 'Pedro Morais',
         views: '1,9 mi de visualizações',
         date: 'há 1 semana',
         avatar: '/images/avatar.jpeg',
         thumb: '/images/thumb8.png',
+    },
+    {
+        id: 9,
+        title:
+            'DULCEFILIA | Wafflaes e Cookies para adoçar a vida.',
+        channel: 'Pedro Morais',
+        views: '118 mil visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb7.png',
+    },
+    {
+        id: 10,
+        title:
+            'GLAYCIIELE ALBUQUEQUE | Sua Fisioterapeuta',
+        channel: 'Pedro Morais',
+        views: '5,6 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb4.png',
+    },
+    {
+        id: 11,
+        title:
+            'GIT E GITHUB | Criando uma Rede Social com React.js e .NET Core #04',
+        channel: 'Pedro Morais',
+        views: '1,9 mi de visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb8.png',
+    },
+    {
+        id: 12,
+        title:
+            'AUTOFORTE - OFICINA | Sua oficina no bairro de Casa Forte. A gente cuida do seu veículo!',
+        channel: 'Pedro Morais',
+        views: '106 mil visualizações',
+        date: 'há 1 semana',
+        avatar: '/images/avatar.jpeg',
+        thumb: '/images/thumb3.png',
     },
 ];
 
@@ -183,23 +230,23 @@ function Home({ darkMode, setDarkMode }) {
 
                     <div className={classes.grow} />
 
-                    <Switch value={darkMode} onChange={() => setDarkMode(!darkMode)}  className={classes.icons} />
+                    <Switch value={darkMode} onChange={() => setDarkMode(!darkMode)} className={classes.icons} />
 
                     <IconButton
                         className={classes.icons}
-                        >
+                    >
                         <VideoCall />
 
                     </IconButton>
                     <IconButton
                         className={classes.icons}
-                        >
+                    >
                         <MoreVert />
                     </IconButton>
 
                     <IconButton
                         className={classes.icons}
-                        >
+                    >
                         <Apps />
                     </IconButton>
 
@@ -306,7 +353,7 @@ function Home({ darkMode, setDarkMode }) {
                             >
                                 <ListItem button classes={{ root: classes.listItem }}>
                                     <ListItemIcon>
-                                        <AddCircle />
+                                        <MusicVideo />
                                         <ListItemText classes={{
                                             primary: classes.listItemText,
                                         }} primary={'Música'} />
@@ -314,15 +361,15 @@ function Home({ darkMode, setDarkMode }) {
                                 </ListItem>
                                 <ListItem button classes={{ root: classes.listItem }}>
                                     <ListItemIcon>
-                                        <AddCircle />
+                                        <SportsEsports />
                                         <ListItemText classes={{
                                             primary: classes.listItemText,
-                                        }} primary={'Esportes'} />
+                                        }} primary={'E-Esportes'} />
                                     </ListItemIcon>
                                 </ListItem>
                                 <ListItem button classes={{ root: classes.listItem }}>
                                     <ListItemIcon>
-                                        <AddCircle />
+                                        <SportsBasketballIcon />
                                         <ListItemText classes={{
                                             primary: classes.listItemText,
                                         }} primary={'Jogos'} />
@@ -330,7 +377,7 @@ function Home({ darkMode, setDarkMode }) {
                                 </ListItem>
                                 <ListItem button classes={{ root: classes.listItem }}>
                                     <ListItemIcon>
-                                        <AddCircle />
+                                        <LocalMovies />
                                         <ListItemText classes={{
                                             primary: classes.listItemText,
                                         }} primary={'Filmes'} />
@@ -338,7 +385,7 @@ function Home({ darkMode, setDarkMode }) {
                                 </ListItem>
                                 <ListItem button classes={{ root: classes.listItem }}>
                                     <ListItemIcon>
-                                        <AddCircle />
+                                        <Tv />
                                         <ListItemText classes={{
                                             primary: classes.listItemText,
                                         }} primary={'Notícias'} />
@@ -346,7 +393,7 @@ function Home({ darkMode, setDarkMode }) {
                                 </ListItem>
                                 <ListItem button classes={{ root: classes.listItem }}>
                                     <ListItemIcon>
-                                        <AddCircle />
+                                        <LiveTv />
                                         <ListItemText classes={{
                                             primary: classes.listItemText,
                                         }} primary={'Ao Vivo'} />
@@ -362,7 +409,7 @@ function Home({ darkMode, setDarkMode }) {
                                 </ListItem>
                                 <ListItem button classes={{ root: classes.listItem }}>
                                     <ListItemIcon>
-                                        <AddCircle />
+                                        <Videocam />
                                         <ListItemText classes={{
                                             primary: classes.listItemText,
                                         }} primary={'Vídeo em 360º'} />
@@ -375,7 +422,7 @@ function Home({ darkMode, setDarkMode }) {
                     </Drawer>
                 </Hidden>
 
-                <Box p={8}>
+                <Box p={8} className={classes.boxVideos}>
                     <Toolbar />
                     <Typography
                         variant='h5'
@@ -383,7 +430,7 @@ function Home({ darkMode, setDarkMode }) {
                         style={{ fontWeight: 600 }}
                     >
                         Recomendados
-                </Typography>
+                    </Typography>
 
 
                     <Grid container spacing={4}>
