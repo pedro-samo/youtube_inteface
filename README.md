@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Nothing better to study a new React.JS library than to recreate the interface of the largest video platform in the world, Youtube.
 In addition to the creation of the traditional main page, as a supplement a switch button was introduced in the website header to change the theme to night mode.
 
-This entire project was developed guided by the tutorial from @lucasnhimi on Youtube, to whom I thank the contribution.
+This entire project was developed guided by the tutorial from [Lucas Nhimi](https://github.com/lucasnhimi) on his Youtube Cnannel, to whom I thank the contribution.
 __________
 
 ## Technologies
