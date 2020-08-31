@@ -41,6 +41,11 @@ __________
 ![Dark Theme](https://github.com/pedro-samo/youtube_inteface/blob/master/git_readme/dark_mode.png)
 
 
+### Discovery yourself at: https://tinyurl.com/lapa-portfolio
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8707f9b4-a917-4a94-9dea-3500e65c2294/deploy-status)](https://youtube-material-ui.netlify.app/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
